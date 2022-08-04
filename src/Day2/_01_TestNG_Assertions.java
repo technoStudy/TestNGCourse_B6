@@ -35,4 +35,16 @@ public class _01_TestNG_Assertions {
 
     }
 
+    @Test
+    public void assertEqualsNoOrder() {
+
+        String[] expected = {"Hello", "Twenty"};
+        String[] actual = {"Twenty", "Hello"};
+
+        Assert.assertEqualsNoOrder(actual, expected, "Actual result should be equal to Expected result!");
+
+    }
+
+
+
 }
