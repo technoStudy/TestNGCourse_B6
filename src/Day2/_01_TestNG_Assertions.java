@@ -45,6 +45,24 @@ public class _01_TestNG_Assertions {
 
     }
 
+    @Test
+    public void assertSame() {
 
+        String[] expected = {"TechnoStudy"};
+        String[] actual = {"TechnoStudy"};
+
+        Assert.assertSame(actual, expected);
+
+    }
+
+    @Test
+    public void assertSame2() {
+
+        String[] expected = {"TechnoStudy"};
+        String[] actual = expected;
+
+        Assert.assertSame(actual, expected);
+
+    }
 
 }
