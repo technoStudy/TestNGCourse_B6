@@ -36,6 +36,16 @@ public class _01_TestNG_Assertions {
     }
 
     @Test
+    public void assertNotEquals() {
+
+        String expected = "Hello";
+        String actual = "Bye";
+
+        Assert.assertNotEquals(actual, expected);
+
+    }
+
+    @Test
     public void assertEqualsNoOrder() {
 
         String[] expected = {"Hello", "Twenty"};
@@ -62,6 +72,16 @@ public class _01_TestNG_Assertions {
         String[] actual = expected;
 
         Assert.assertSame(actual, expected);
+
+    }
+
+    @Test
+    public void assertNotSame() {
+
+        String[] expected = {"TestNG"};
+        String[] actual = {"TestNG"};
+
+        Assert.assertNotSame(actual, expected);
 
     }
 
