@@ -1,5 +1,6 @@
 package Day2;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -127,6 +128,28 @@ public class _01_TestNG_Assertions {
         boolean actual = isDataAvailable();
 
         Assert.assertFalse(actual);
+
+    }
+
+    @Test
+    public void assertFail() {
+
+        if (isDataAvailable()) {
+            System.out.println("Move to next step!");
+        } else {
+            Assert.fail("Data is not available!");
+        }
+
+    }
+
+    @Test
+    public void assertFail2() {
+
+        try {
+            // try to find element
+        } catch (NoSuchElementException exception) {
+            Assert.fail("Test failed! Selenium cannot find the element!");
+        }
 
     }
 
