@@ -3,6 +3,8 @@ package Day2;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.Random;
+
 public class _01_TestNG_Assertions {
 
     @Test
@@ -103,6 +105,29 @@ public class _01_TestNG_Assertions {
 
     }
 
+    public boolean isDataAvailable() {
 
+        Random rnd = new Random();
+        return rnd.nextBoolean();
+
+    }
+
+    @Test
+    public void assertTrue() {
+
+        boolean actual = isDataAvailable();
+
+        Assert.assertTrue(actual);
+
+    }
+
+    @Test
+    public void assertFalse() {
+
+        boolean actual = isDataAvailable();
+
+        Assert.assertFalse(actual);
+
+    }
 
 }
