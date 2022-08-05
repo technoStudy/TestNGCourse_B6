@@ -85,4 +85,24 @@ public class _01_TestNG_Assertions {
 
     }
 
+    @Test
+    public void assertNull() {
+
+        String nullString = null;
+
+        Assert.assertNull(nullString);
+
+    }
+
+    @Test
+    public void assertNotNull() {
+
+        String str = "Hey";
+
+        Assert.assertNotNull(str);
+
+    }
+
+
+
 }
