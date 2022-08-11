@@ -1,0 +1,17 @@
+<!-- Tests inside same <Suite> should have different names -->
+
+<suite name="Test Suite">
+    <test name="Regression">
+        <classes>
+            <class name="Day1._02_TestNG_BeforeAfterMethod"></class>
+        </classes>
+    </test>
+
+    <test name="Smoke">
+        <classes>
+            <class name="Day2._01_TestNG_Assertions"></class>
+        </classes>
+    </test>
+</suite>
+
+<!-- We're going to use multiple <test> tags when we need to provide different data or different browser -->
