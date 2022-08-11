@@ -1,0 +1,11 @@
+<!-- @BeforeSuite annotation will get executed here -->
+<suite name="Test Suite">
+    <!-- @BeforeTest annotation will get executed here -->
+    <test name="Test1">
+        <classes>
+            <class name="Day1._01_TestNG_TestAnnotation"></class>
+        </classes>
+    </test>
+    <!-- @AfterTest annotation will get executed here -->
+</suite>
+<!-- @AfterSuite annotation will get executed here -->
