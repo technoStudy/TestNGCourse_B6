@@ -1,0 +1,8 @@
+<suite name="Parametrized Test Suite">
+    <test name="Test">
+        <parameter name="item" value="Hello World!"></parameter>
+        <classes>
+            <class name="Day6.ParametrizedTestClass"></class>
+        </classes>
+    </test>
+</suite>
