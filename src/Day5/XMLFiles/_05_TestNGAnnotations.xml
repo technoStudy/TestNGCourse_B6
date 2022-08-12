@@ -1,0 +1,13 @@
+<!-- @BeforeSuite -->
+<suite name="Test Suite">
+    <!-- @BeforeTest -->
+    <test name="Test">
+        <classes>
+            <!-- @BeforeClass -->
+            <class name="Day5._02_TestNGAnnotations"></class>
+            <!-- @AfterClass -->
+        </classes>
+    </test>
+    <!-- @AfterTest -->
+</suite>
+<!-- @AfterSuite -->
