@@ -1,0 +1,16 @@
+<suite name="SmokeTest Suite">
+
+    <groups>
+        <run>
+            <include name="SmokeTest"></include>
+        </run>
+    </groups>
+
+    <test name="SmokeTest">
+        <classes>
+            <class name="Day5._03_Groups"></class>
+            <class name="Day5._04_SecondGroups"></class>
+        </classes>
+    </test>
+
+</suite>
