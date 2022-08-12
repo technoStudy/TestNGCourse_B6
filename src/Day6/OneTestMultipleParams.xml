@@ -1,0 +1,10 @@
+<suite name="Parametrized Testing with multiple params">
+    <test name="Test">
+        <parameter name="parameter1" value="Testing parameter1"></parameter>
+        <parameter name="parameter2" value="Testing parameter2"></parameter>
+
+        <classes>
+            <class name="Day6.OneTestMultipleParams"></class>
+        </classes>
+    </test>
+</suite>
