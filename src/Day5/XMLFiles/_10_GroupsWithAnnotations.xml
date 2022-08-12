@@ -1,0 +1,13 @@
+<suite name="Test Suite">
+    <groups>
+        <run>
+            <include name="Regression"></include>
+        </run>
+    </groups>
+
+    <test name="Test">
+        <classes>
+            <class name="Day5._05_GroupsWithBeforeAfterAnnotations"></class>
+        </classes>
+    </test>
+</suite>
