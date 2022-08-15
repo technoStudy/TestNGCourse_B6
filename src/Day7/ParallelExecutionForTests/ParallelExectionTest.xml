@@ -1,0 +1,15 @@
+<suite name="Parallel Execution Suite for Regression and Smoke Test" parallel="tests" thread-count="2">
+
+    <test name="Regression Test">
+        <classes>
+            <class name="Day7.ParallelExecutionForTests.RegressionTest"></class>
+        </classes>
+    </test>
+
+    <test name="Smoke Test">
+        <classes>
+            <class name="Day7.ParallelExecutionForTests.SmokeTest"></class>
+        </classes>
+    </test>
+
+</suite>
