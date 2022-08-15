@@ -1,0 +1,10 @@
+<suite name="Parallel Execution for Classes">
+    <test name="Test Classes" parallel="classes" thread-count="2">
+        <classes>
+            <class name="Day7.ParallelExecutionForClasses.ParallelTestClass1"></class>
+            <class name="Day7.ParallelExecutionForClasses.ParallelTestClass2"></class>
+            <class name="Day7.ParallelExecutionForClasses.ParallelTestClass3"></class>
+            <class name="Day7.ParallelExecutionForClasses.ParallelTestClass4"></class>
+        </classes>
+    </test>
+</suite>
